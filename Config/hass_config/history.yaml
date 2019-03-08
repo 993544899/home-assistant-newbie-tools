@@ -1,0 +1,27 @@
+# ------------------------------------------------------------------------------ #
+# 在侧边栏显示历史菜单 https://www.home-assistant.io/components/history/
+# 依赖recorder 设置，history中设置的必须在recorder内有，不然没有数据显示
+# 可不设置，或者设置只显示某些特定信息
+# ------------------------------------------------------------------------------ #
+
+# 根据include中entities的内容顺序，来对历史图表显示的内容进行排序
+#use_include_order: true
+#include:
+#  domains:
+#    - light
+#    - switch
+#    - climate
+#    - media_player
+#    - binary_sensor
+#    - cover
+#    - sensor
+#  entities:
+#    - group.all_covers
+#    - group.all_fans
+#    - group.all_lights
+#    - group.all_locks
+#    - group.all_switches
+#exclude:
+#  entities:
+#   - sensor.last_boot
+#   - sensor.date

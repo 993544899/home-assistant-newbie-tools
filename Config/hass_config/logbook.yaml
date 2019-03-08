@@ -1,0 +1,19 @@
+# ------------------------------------------------------------------------------ #
+# 在侧边栏显示日志菜单 https://www.home-assistant.io/components/logbook/
+# ------------------------------------------------------------------------------ #
+
+#显示
+#include:
+#  domains:
+#    - sensor
+#    - switch
+#    - media_player
+
+#不显示
+#exclude:
+#  entities:
+#    - sensor.time
+#    - sensor.date
+#    - sensor.ha_uptime
+#  domains:
+#    - weblink

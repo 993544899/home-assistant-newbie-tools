@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: aioesphomeapi
+Version: 1.6.0
+Summary: UNKNOWN
+Home-page: https://esphome.io/
+Author: Otto Winter
+Author-email: contact@otto-winter.com
+License: UNKNOWN
+Download-URL: https://github.com/esphome/aioesphomeapi/archive/1.6.0.zip
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5.3

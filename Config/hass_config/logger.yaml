@@ -1,0 +1,28 @@
+# ------------------------------------------------------------------------------ #
+# 控制台打印的日志信息 https://www.home-assistant.io/components/logger/
+# 也会保存在 home-assistant.log
+# 日志等级: notset不设置, debug开发者模式, info普通信息, warn提醒, warning警告
+#           error错误, fatal严重问题, critical致命问题
+# ------------------------------------------------------------------------------ #
+
+default: info
+#logs:
+#  aiohttp.access: warn
+#  aiohttp.server: warn
+#  homeassistant.core: warn
+#  homeassistant.components.automation: warn
+#  homeassistant.components.binary_sensor: warn
+#  homeassistant.components.climate: warn
+#  homeassistant.components.device_tracker: warn
+#  homeassistant.components.discovery: warn
+#  homeassistant.components.feedreader: warn
+#  homeassistant.components.http: warn
+#  homeassistant.components.media_player: warn
+#  homeassistant.components.sensor: warn
+#  homeassistant.components.recorder: warn
+#  homeassistant.helpers.script: warn
+#  homeassistant.helpers.entity: warn
+#  homeassistant.exceptions: warn
+#  py.warnings: warn
+#  requests.packages.urllib3.connectionpool: warn
+#  root: warn

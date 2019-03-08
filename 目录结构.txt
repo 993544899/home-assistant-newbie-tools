@@ -1,0 +1,29 @@
+Homeassistant                       主文件夹
+├─config                            HA配置文件夹
+│  ├─.cloud                         云服务相关？（猜测，未证实）
+│  ├─.storage                       一些用户账号、token、lovelace配置等的存放位置
+│  ├─custom_components              自制插件存放在此
+│  │  ├─sensor                      传感器插件
+│  │  │  └─aliddns.py               阿里DDNS插件
+│  │  └─custom_updater.py           用于自制插件版本检测升级的插件
+│  ├─deps                           HA正常运行所需的依赖！请勿触碰！
+│  ├─hass-configurator              网页版代码编辑器！请勿触碰！
+│  ├─tts                            TTS，文字转语音相关
+│  ├─www                            用于存放网页显示相关的文件
+│  │  ├─tileboard                   一个UI界面
+│  │  └─lovelace                    lovelace相关的放到这里，如自定义的js库
+│  ├─automations.yaml               自动化相关配置放这里
+│  ├─configuration.yaml             主配置文件
+│  ├─customize.yaml                 个性化配置放这里
+│  ├─groups.yaml                    分组配置放这里
+│  ├─logger.yaml                    日志配置放这里
+│  ├─recorder.yaml                  记录配置放这里
+│  ├─scripts.yaml                   脚本配置放这里
+│  ├─secrets.yaml                   密码配置放这里
+│  ├─themes.yaml                    主题配置放这里
+│  └─ui-lovelace.yaml               lovelace配置放这里，需要在configuration.yaml中lovelace设置启用 mode: yaml
+├─Notepad++                         代码编辑器
+│  └─notepad++.exe                  代码编辑器主程序，Windows上可以用此修改yaml文件
+├─Python37                          Python3.7环境 ！请勿触碰！
+├─开启HA之旅_CMD.exe                CMD主程序，从这里启动HA
+└─开启HA之旅_UI.exe                 UI界面主程序，从这里启动HA

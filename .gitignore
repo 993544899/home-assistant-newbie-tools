@@ -1,0 +1,15 @@
+.cloud
+.storage
+.uuid
+home-assistant.log
+home-assistant_v2.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.sqlite
+__pycache__
+tts
+secrets.yaml
+known_devices.yaml
+.config.json
+.config.json.backup
