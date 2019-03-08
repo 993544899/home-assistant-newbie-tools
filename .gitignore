@@ -9,7 +9,6 @@ home-assistant_v2.db
 *.sqlite
 __pycache__
 tts
-secrets.yaml
 known_devices.yaml
 .config.json
 .config.json.backup
